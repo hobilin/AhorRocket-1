@@ -6,14 +6,15 @@ background-color: #0cc18b;
   margin: 0;
   padding: 0;
 }
-
 html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-
+}
+.uno{
+  display: none;
 }
 div.navbar{
   font-size: 1.4em;
@@ -26,9 +27,13 @@ div.navbar p{
   height: 2em;
   margin-right: -0.5em;
 }
+li .us{
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
 /*BOTON REGISTRO*/
 #registro.botonregistro{
-  margin-left: 52em;
+  margin-left: 45em;
   margin-top: 1.2em;
   background-color: #;
   letter-spacing: 1px;
@@ -62,10 +67,13 @@ div.navbar p{
   margin-top: 1.2em;
 }
 #send{
-  margin-top: 1.5em;
+  margin-top: 0.5em;
+  letter-spacing: 1px;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
 }
 .recuperar{
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 0.9em;
 }
 .recuperar a:hover{
@@ -82,25 +90,31 @@ div.navbar p{
 } */
 
 /*MENÚ CONTENIDO*/
+.navbar2{
+  height: 0.4em;
+}
 .menufijo{
-  padding-top: 0.6em;
-  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  padding-bottom: -0.2em;
 }
 li i{
   margin-left: 2em;
 }
 li .fa{
-  font-size: 1.25em;
+  font-size: 0.8em;
   text-align: center;
   vertical-align: center;
 }
+li .fa-home{
+  margin-left: 5em;
+}
 .logo2 img{
-  width: 2.2em;
-  height: 2.2em;
-  margin-left: 8em;
+  width: 1.1em;
+  height: 1.1em;
+  margin-left: 9em;
 }
 .busqueda #srch-term{
-  margin-left: 7em;
+  margin-left: 9em;
   width: 13em;
   border-right: none;
 }
@@ -114,10 +128,10 @@ li .fa{
 }
 li #user{
   border-radius: 5em;
-  width: 3em;
-  height: 3em;
+  width: 1.3em;
+  height: 1.3em;
   margin-left: 2em;
-  margin-top: -1em;
+  
 }
 
 /* DESCRIPCIÓN USER GENERAL*/
@@ -125,13 +139,14 @@ li #user{
   border-radius: 2em;
   width: 10em;
   margin-left: 4.95em;
-  margin-top: -44em;
+  margin-top: -42em;
+  border-color: #000;  
 }
 .infouser{
   outline: 1px solid #c0c0c0;
   height: 20em;
   width: 20em;
-  margin-top: 7em;
+  margin-top: 8.5em;
   margin-left: 1em;
 }
 .info{
@@ -145,7 +160,7 @@ li #user{
   font-size: 1.8em; 
 }
 .info p{
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .info .description p{
   font-size: 1.5em;
@@ -154,8 +169,8 @@ li #user{
 }
 /*ALIANZAS*/
 .menualianza{
-  margin-left: 2.5em;
-  outline: 1px solid green;
+  margin-left: 2.15em;
+  /*outline: 1px solid green; */
   height: 25em;
   width: 20em;
   margin-top: 2em;
@@ -192,4 +207,109 @@ img.marca1, img.marca4, img.marca7{
 .flecha-down i.fa{
   margin-left: 10em;
   margin-top: 2em;
+}
+
+/*Publicación usuario*/
+
+.post{
+  outline: 1px solid orange;
+  height: 11em;
+  margin-top: 1.4em;
+}
+textarea.txt{
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.6em;
+  resize: none;
+  padding: 0.4em;
+  height: 6.7em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+button.lanzar{
+  float: right;
+  margin-right: 3em;
+  letter-spacing: 1px;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  
+}
+span i.fa-camera{
+  font-size: 2em;
+  margin-left: 2em;
+}
+span i.ubicacion{
+  font-size: 2em;
+  margin-left: 1em;
+}
+div.historial{
+  height: 100em;
+  width: 100%;
+  outline: 1px solid orange;
+  margin-left: 0em;
+  margin-top: 0.89em;
+  padding: 1em;
+}
+.post1{
+  outline: 1px solid blue;
+  padding: 0.4em;
+  margin-bottom: 1em;
+}
+.userpost{
+  border-radius: 5em;
+  width: 4em;
+  height: 4em;
+}
+hr {
+  margin-top: -4em;
+}
+h4.username{
+  font-size: 1.4em;
+}
+p.usertime{
+  color: #a5a0a0;
+  font-size: 0.8em;
+  margin-top: -0.7em;
+}
+.puntitos .fa-ellipsis-v{
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+.texto{
+  /*outline: 1px solid red; */
+  margin-top: 1em;
+  margin-left: 2em;
+  width: 90%;
+}
+.thumbnail{
+  margin: 1em;
+  margin-top: 0.5em;
+  margin-bottom: -10em;
+
+}
+.thumbnail img{
+  width: 100%;
+}
+.icons{
+  margin-top: -0.3em;
+  text-align: center;
+  border-top: 1px solid #000;
+  padding-top: 1.2em;
+  width: 95%;
+
+}
+div.icons{
+  margin-left: 1em;
+}
+.icons .fa{
+  font-size: 1.5em;
+  /*color: #1daa01; */
+}
+.sugerencias{
+  outline: 1px solid orange;
+  width: 100%;
+  height: 20em;
 }
