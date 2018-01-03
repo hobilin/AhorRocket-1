@@ -1,0 +1,195 @@
+/*
+background-color: #0cc18b;
+*/
+* {
+  
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
+}
+div.navbar{
+  font-size: 1.4em;
+}
+div.navbar p{ 
+  margin-top: 0.5em;
+}
+.logo1 img{ /*IMAGEN LOGO INICIO*/
+  width: 2em;
+  height: 2em;
+  margin-right: -0.5em;
+}
+/*BOTON REGISTRO*/
+#registro.botonregistro{
+  margin-left: 52em;
+  margin-top: 1.2em;
+  background-color: #;
+  letter-spacing: 1px;
+
+}
+
+/*section dos (imagen estática)*/
+
+.dos{
+  background-image: url(../img/istock.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 46.5em;
+  margin-top: 10em;
+  text-align: center;
+
+}
+.login{
+  outline: 1px solid orange;
+  height: 25em;
+  width: 30em;
+  float: right;
+  margin-top: -2em;
+  margin-right: 6em;
+  padding: 2em;
+}
+.mail{
+  margin-top: 2em;
+}
+.pass{
+  margin-top: 1.2em;
+}
+#send{
+  margin-top: 1.5em;
+}
+.recuperar{
+  margin-top: 2em;
+  font-size: 0.9em;
+}
+.recuperar a:hover{
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*
+#loginrrss p{
+  font-size: 0.9em;
+}
+#loginrrss.btn{
+  margin-right: 20em;
+} */
+
+/*MENÚ CONTENIDO*/
+.menufijo{
+  padding-top: 0.6em;
+  padding-bottom: 0.2em;
+}
+li i{
+  margin-left: 2em;
+}
+li .fa{
+  font-size: 1.25em;
+  text-align: center;
+  vertical-align: center;
+}
+.logo2 img{
+  width: 2.2em;
+  height: 2.2em;
+  margin-left: 8em;
+}
+.busqueda #srch-term{
+  margin-left: 7em;
+  width: 13em;
+  border-right: none;
+}
+#btnsearch{
+  margin-left: 0em;
+  border-left: none;
+  width: 2.5em; 
+}
+#btnsearch .glyphicon-search{
+  margin-left: 0em;
+}
+li #user{
+  border-radius: 5em;
+  width: 3em;
+  height: 3em;
+  margin-left: 2em;
+  margin-top: -1em;
+}
+
+/* DESCRIPCIÓN USER GENERAL*/
+.user img{
+  border-radius: 2em;
+  width: 10em;
+  margin-left: 4.95em;
+  margin-top: -44em;
+}
+.infouser{
+  outline: 1px solid #c0c0c0;
+  height: 20em;
+  width: 20em;
+  margin-top: 7em;
+  margin-left: 1em;
+}
+.info{
+  text-align: left;
+  margin-left: 1.5em;
+  padding-top: 2.4em;
+}
+.info .name h3{
+  text-align: center;
+  margin-bottom: 1.1em;
+  font-size: 1.8em; 
+}
+.info p{
+  font-size: 1.3em;
+}
+.info .description p{
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1.1em;
+}
+/*ALIANZAS*/
+.menualianza{
+  margin-left: 2.5em;
+  outline: 1px solid green;
+  height: 25em;
+  width: 20em;
+  margin-top: 2em;
+}
+.menualianza h2{
+  font-size: 1.5em;
+  text-align: center;
+}
+#alianza-user{
+  border-radius: 5em;
+  width: 4em;
+  height: 4em;
+  text-decoration: center;
+}
+#alianza-marca{
+  border-radius: 5em;
+  width: 3.8em;
+  height: 3.8em;
+  text-decoration: center;
+  margin-top: 1.5em;
+}
+img.user1, img.user4, img.user7{
+  margin-left: 1em;
+}
+img.marca1, img.marca4, img.marca7{
+  margin-left: 1em;
+}
+.imagenesalianza img, .imagenesmarcas img{
+  margin-top: 1.2em;
+}
+.imagenesmarca{  /*NO VISIBLE AGREGAR FUNCIÓN PARA CAMBIAR ESTATUS POR MENU*/
+  display: none;
+}
+.flecha-down i.fa{
+  margin-left: 10em;
+  margin-top: 2em;
+}
