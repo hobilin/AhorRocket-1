@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>AhorRocket</title>
+  <link href="assets/img/cohete.png" rel='shortcut icon' type='image/png'/>
+
 
 
 <!-- CSS general -->
@@ -26,16 +28,6 @@
 
 
 
-  <!-- FALTAN LOS CIERRES DE LOS COMENTARIOS -->
-
-
-<!-- AGREGAR SOBRE EL CARRUSEL
-Bienvenido a AhorR-ocket.
-
-Conéctate con personas que buscan ahorrar sin dejar de comprar. Entérate de las mejores rebajas y comparte tus descubrimientos.
-Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuentos exclusivos.
-
- -->
 
 
 <!-- Navbar Inicio -->
@@ -54,14 +46,57 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
       </div> <!-- container -->
     </div> <!-- navbar arriba -->
  
+ <!-- Mensaje carrusel -->
+    <div class="mensaje-carrusel">
+      <div class="textocarrusel">
+        <h2> Bienvenido a AhorRocket</h2>
+        <p>Conéctate con personas que buscan ahorrar sin dejar de comprar. Entérate de las mejores rebajas y comparte tus descubrimientos.</p> <p>Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuentos exclusivos.</p>
 
-  <div class="dos">
+
+      </div> <!-- texto carrusel -->
+    </div> <!-- mensaje carrusel -->
+ <!-- CARRUSEL -->
+    <div class="row">
+      <div class="col-md-12">
+
+      <div id="carrusel">
+      <div id="myCarousel" class="carousel slide">
+        <!-- Carousel items -->
+        <div class="carousel-inner">      
+          <div class="active item"><img class="carruselfondo" src="assets/img/carrusel/2.jpg" alt="banner1" /></div>
+          <div class="item"><img class="carruselfondo" src="assets/img/carrusel/3.jpg" alt="banner2" /></div>
+          <div class="item"><img class="carruselfondo" src="assets/img/carrusel/6.jpg" alt="banner3" /></div>
+          <div class="item"><img class="carruselfondo" src="assets/img/carrusel/12.jpg" alt="banner4" /></div>
+          <div class="item"><img class="carruselfondo" src="assets/img/carrusel/13.jpg" alt="banner5" /></div>
+          <div class="item"><img class="carruselfondo" src="assets/img/carrusel/14.jpg" alt="banner6" /></div>
+          <div class="item"><img class="carruselfondo" src="assets/img/carrusel/15.jpg" alt="banner7" /></div>
+        </div>
+        <!-- Carousel nav -->
+     
+      </div> <!-- div -->
+      </div> <!-- div.carrusel -->
+    </div> <!-- columnas carrusel -->
+    </div> <!-- row carrusel -->
+   
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="dos ">
     <div class="container-fluid">
       <!-- Background en css -->
       <div class="login">
         <div class="title1">
           <div class="row">
-            <h2>Inicia Sesión</h2>
+            <h2 class="titulologin">Inicia Sesión</h2>
             <div class="row mail">
                 <div class="input-group col-xs-offset-2 col-sm-offset-2 col-sm-8 col-xs-8">
                 <input type="text" class="form-control" placeholder="E-mail" aria-describedby="basic-addon2">
@@ -84,23 +119,16 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
             <div class="recuperar"><a href="">Olvidé mi contraseña</a>
   <!--  arreglar los espacios en el css: height: 35em;   width: 30em; -->
          
-          <div class="row iniciar">
-              <div class="col-lg-3 col-md-3">
-               
+             </div> <!-- recuperar -->
+      </div> <!-- title1 -->
+    </div> <!-- login -->
 
-              </div><!-- columnas 1 -->
-              <div class="col-lg-offset-2 col-md-offset-2"></div>
-               <div class="col-lg-3 col-md-3">
-                
-              </div><!-- columnas 2 -->
-              <div class="col-lg-offset-1 col-md-offset-1"></div>
-               <div class="col-lg-3 col-md-3">
-              
-      
-              </div><!-- columnas 3 -->
-             </div> <!-- row iniciar -->
-        </div> <!-- title1 -->
-      </div> <!-- login -->
+ 
+
+
+
+
+
 
     </div><!-- container-fluid -->
   </section>
@@ -126,7 +154,7 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
                     </div>
                   </div>
                 </form> </li>
-                <li><a href="#"><img id="user" src="assets/img/profile.png" alt=""></a></li>
+                <li><a href="#"><img id="user" class="img-responsive" src="assets/img/profile.png" alt=""></a></li>
               </ul>
            
          </div> <!-- navbar -->
@@ -146,7 +174,7 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
                     <span class="date"><p><i class="fa fa-calendar" aria-hidden="true"> Se unió en marzo 2017</i></p></span>
                   </div> <!-- info -->
                    <div class="user">
-                    <img src="assets/img/profile.png" alt="">
+                    <img class="img-responsive" src="assets/img/profile.png" alt="">
                     </div><!-- fotouser -->
                 </div> <!-- info usuario -->
               <div class="row alianzas">
@@ -159,35 +187,35 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
                     <div class="imagenesalianza">
                       <div class="row">
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user1" src="assets/img/usuarios/user1.png" alt="">
+                          <img id="alianza-user" class="user1 img-responsive" src="assets/img/usuarios/user1.png" alt="">
                         </div> <!-- col 1 -->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user2" src="assets/img/usuarios/user2.png" alt="">
+                          <img  id="alianza-user" class="user2 img-responsive" src="assets/img/usuarios/user2.png" alt="">
                         </div> <!-- col 2-->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user3" src="assets/img/usuarios/user3.png" alt="">
+                          <img id="alianza-user" class="user3 img-responsive" src="assets/img/usuarios/user3.png" alt="">
                         </div> <!-- col 3 -->
                       </div><!-- row 1 -->
                       <div class="row">
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user4" src="assets/img/usuarios/user4.png" alt="">
+                          <img id="alianza-user" class="user4 img-responsive" src="assets/img/usuarios/user4.png" alt="">
                         </div> <!-- col 1 -->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user5" src="assets/img/usuarios/user5.png" alt="">
+                          <img id="alianza-user" class="user5 img-responsive" src="assets/img/usuarios/user5.png" alt="">
                         </div> <!-- col 2-->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user6" src="assets/img/usuarios/user6.png" alt="">
+                          <img id="alianza-user" class="user6 img-responsive" src="assets/img/usuarios/user6.png" alt="">
                         </div> <!-- col 3 -->
                       </div><!-- row 2 -->
                       <div class="row">
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user7" src="assets/img/usuarios/user7.png" alt="">
+                          <img id="alianza-user" class="user7 img-responsive" src="assets/img/usuarios/user7.png" alt="">
                         </div> <!-- col 1 -->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user8" src="assets/img/usuarios/user8.png" alt="">
+                          <img  id="alianza-user" class="user8 img-responsive" src="assets/img/usuarios/user8.png" alt="">
                         </div> <!-- col 2-->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-user" class="user9" src="assets/img/usuarios/user9.png" alt="">
+                          <img id="alianza-user" class="user9 img-responsive" src="assets/img/usuarios/user9.png" alt="">
                         </div> <!-- col 3 -->
                         <div class="row flecha-down">
                           <div class="col-md-4 col-lg-4">
@@ -199,35 +227,35 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
                    <div class="imagenesmarca">
                       <div class="row">
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca1" src="assets/img/usuarios/marca1.png" alt="">
+                          <img id="alianza-marca" class="marca1 img-responsive" src="assets/img/usuarios/marca1.png" alt="">
                         </div> <!-- col 1 -->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca2" src="assets/img/usuarios/marca2.png" alt="">
+                          <img id="alianza-marca" class="marca2 img-responsive" src="assets/img/usuarios/marca2.png" alt="">
                         </div> <!-- col 2-->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca3" src="assets/img/usuarios/marca3.png" alt="">
+                          <img id="alianza-marca" class="marca3 img-responsive" src="assets/img/usuarios/marca3.png" alt="">
                         </div> <!-- col 3 -->
                       </div><!-- row 1 -->
                       <div class="row">
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca4" src="assets/img/usuarios/marca4.png" alt="">
+                          <img id="alianza-marca" class="marca4 img-responsive" src="assets/img/usuarios/marca4.png" alt="">
                         </div> <!-- col 1 -->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca5" src="assets/img/usuarios/marca5.png" alt="">
+                          <img id="alianza-marca" class="marca5 img-responsive" src="assets/img/usuarios/marca5.png" alt="">
                         </div> <!-- col 2-->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca6" src="assets/img/usuarios/marca6.png" alt="">
+                          <img id="alianza-marca" class="marca6 img-responsive" src="assets/img/usuarios/marca6.png" alt="">
                         </div> <!-- col 3 -->
                       </div><!-- row 2 -->
                       <div class="row">
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca7" src="assets/img/usuarios/marca7.png" alt="">
+                          <img id="alianza-marca" class="marca7 img-responsive" src="assets/img/usuarios/marca7.png" alt="">
                         </div> <!-- col 1 -->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca8" src="assets/img/usuarios/marca8.png" alt="">
+                          <img id="alianza-marca" class="marca8 img-responsive" src="assets/img/usuarios/marca8.png" alt="">
                         </div> <!-- col 2-->
                         <div class="col-md-4 col-lg-4">
-                          <img id="alianza-marca" class="marca9" src="assets/img/usuarios/marca9.png" alt="">
+                          <img id="alianza-marca" class="marca9 img-responsive" src="assets/img/usuarios/marca9.png" alt="">
                         </div> <!-- col 3 -->
                         <div class="row flecha-down">
                           <div class="col-md-4 col-lg-4">
@@ -258,7 +286,7 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
                 <div class="post1">
                   <div class="row">
                     <div class="col-md-1 col-lg-1">
-                      <img class="userpost" src="assets/img/usuarios/user5.png" alt="">
+                      <img class="userpost img-responsive" src="assets/img/usuarios/user5.png" alt="">
                     </div> <!-- columnas 3 -->
                     <div class="col-md-4 col-lg-4">
                       <h4 class="username">José Saldaña</h4>
@@ -271,12 +299,12 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
                   </div> <!-- row primera linea: foto, nombre, menú -->
                   <div class="row postxt">
                     <div class="texto">
-                      <p postexto> Zapatillas Converse con 35% de descuento. Distintos modelos, en tiendas Bebas de Santiago Centro, hasta el domingo. Lo vi en varias!!</p>
+                      <p postexto> Zapatillas <a href="">&#35;Converse</a> con 35% de descuento. Distintos modelos, en tiendas Bebas de Santiago Centro, hasta el domingo. Lo vi en varias!!</p>
                     </div>
                   </div><!-- postxt -->
                   <div class="row imgoferta">
                      <a href="#" class="thumbnail">
-                      <img src="assets/img/converse.png" alt="">
+                      <img class="img-responsive" src="assets/img/converse.png" alt="">
                     </a>
                   </div> <!-- row imagen oferta -->
              
@@ -299,7 +327,7 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
              <div class="post1">
                   <div class="row">
                     <div class="col-md-1 col-lg-1">
-                      <img class="userpost" src="assets/img/usuarios/user9.png" alt="">
+                      <img class="userpost img-responsive" src="assets/img/usuarios/user9.png" alt="">
                     </div> <!-- columnas 3 -->
                     <div class="col-md-4 col-lg-4">
                       <h4 class="username">Pedro Pérez</h4>
@@ -312,13 +340,13 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
                   </div> <!-- row primera linea: foto, nombre, menú -->
                   <div class="row postxt">
                     <div class="texto">
-                      <p postexto> En Falabella se volvieron locos!! Tablet Yoga Tab2 está a 100 lucas con cualquier medio de pago, dicen que hasta agotar stock... 
+                      <p postexto> En <a href="">&#35;Falabella</a> se volvieron locos!! Tablet Yoga Tab2 está a 100 lucas con cualquier medio de pago, dicen que hasta agotar stock... 
                       (precio normal 180 lucas)</p>
                     </div>
                   </div><!-- postxt -->
                   <div class="row imgoferta">
                      <a href="#" class="thumbnail">
-                      <img src="assets/img/lenovo.png" alt="">
+                      <img class="img-responsive" src="assets/img/lenovo.png" alt="">
                     </a>
                   </div> <!-- row imagen oferta -->
                 
@@ -332,7 +360,7 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
                     <div class="col-md-3 col-lg-3">
                       <span class="like"><i class="fa fa-share-square" aria-hidden="true"></i><p>Compartir</p></span>
                     </div>
-                    <div class="col-md-3 col-lg-3">
+                   <div class="col-md-3 col-lg-3">
                       <span class="like"><i class="fa fa-bookmark" aria-hidden="true"></i><p>Guardar</p></span>
                     </div>
                  </div><!--  row icons-->
@@ -343,18 +371,76 @@ Mira las ofertas que tienen las tiendas para ti y déjate regalonear con descuen
               </div> <!-- row general contenido -->
              </div> <!-- columnas 3 (contenidos) -->
             
-            <div class="col-md-4 col-lg-4"> <!-- sugerencias aquí -->
-              <div class="sugerencias">
+            <div class="col-md-3 col-lg-3"> <!-- sugerencias aquí -->
+              <div class="row">
+              <div class="col-md-12 col-lg-12"> 
+                <div class="sugerencias">
+                  <h3> &#8226;Sugerencias &#8226; </h3>
+
+                <div class="row user-ejemp"> <!-- sugerencias users -->
+                  <div class="col-md-3 col-lg-3"> <!-- columnas sugerencias 1 -->
+                    <img class="img-responsive" src="assets/img/usuarios/sugencia1.png" alt="">
+                  </div> <!-- columnas (4) sugerencias 1 -->
+                  <div class="col-md-6 col-lg-6"> <!-- columnas sugerencias 1 -->
+                    <a href=""> <h4 class="user-sugerencia"> André Soto</h4></a>
+                    <p class="user-aporte">Último viaje: 2 horas</p>
+                  </div> <!-- columnas (6) sugerencias 1 -->
+                </div>    <!-- row sugerencias -->
+                <div class="row user-ejemp"> <!-- sugerencias users -->
+                 <div class="col-md-3 col-lg-3"> <!-- columnas sugerencias 1 -->
+                    <img class="img-responsive" src="assets/img/usuarios/sugencia2.png" alt="">
+                  </div> <!-- columnas (4) sugerencias 1 -->
+                  <div class="col-md-6 col-lg-6"> <!-- columnas sugerencias 1 -->
+                    <a href=""> <h4 class="user-sugerencia"> Memo Morales</h4></a>
+                    <p class="user-aporte">Último viaje: 8 horas</p>
+                  </div> <!-- columnas (6) sugerencias 1 -->
+                </div>    <!-- row sugerencias -->
+                <div class="row user-ejemp"> <!-- sugerencias users -->
+                  <div class="col-md-3 col-lg-3"> <!-- columnas sugerencias 1 -->
+                    <img class="img-responsive" src="assets/img/usuarios/sugencia3.png" alt="">
+                  </div> <!-- columnas (4) sugerencias 1 -->
+                  <div class="col-md-6 col-lg-6"> <!-- columnas sugerencias 1 -->
+                    <a href=""> <h4 class="user-sugerencia"> JC Díaz</h4> </a>
+                    <p class="user-aporte">Último viaje: 30 minutos</p>
+                  </div> <!-- columnas (6) sugerencias 1 -->
+                </div>    <!-- row sugerencias -->
+                </div> <!-- sugerencias -->
+              </div>
+              </div> <!-- row sugerencias-->
+              <div class="row tendencias">
+                <div class="col-md-2 col-lg-2"> </div>
+                <div class="col-md-10 col-lg-10"> 
+                <div class="tendenciass">
+                  <h3> &#8226;Vuelos Frecuentes &#8226; </h3>
+                </div> <!-- tendenciass -->
+                </div> <!-- columnas -->
+               <div class="row hastag">
+                  <div class="col-md-12 col-lg-12"> 
+                    
+                    <ul>
+                      <li><a href="">&#35;Converse</a> </li>
+                      <li><a href="">&#35;Tottus</a> </li>
+                      <li><a href="">&#35;FarmaciaAhumada</a> </li>
+                      <li><a href="">&#35;Skater</a> </li>
+                      <li><a href="">&#35;H&M</a> </li>                     
+                      <li><a href="">&#35;Telepizza</a> </li>
+                      <li><a href="">&#35;PlazaSur</a> </li>
+                      <li><a href="">&#35;Hoyts</a> </li>
+                      <li><a href="">&#35;Sharpie</a> </li>
+                      <li><a href="">&#35;Nescafe</a> </li>
+                      <li><a href="">&#35;Carozzi</a> </li>
+                    </ul>
+                  </div> <!-- titulo tendencias -->
                   
-                </div> <!-- sugerencia -->
-              </div> <!-- sugerencias-->
-
-              
-             </div>   <!-- content-fluid -->
-            </div> <!-- row cuerpo -->
+                </div> <!-- row hastag -->
+              </div> <!-- row tendencias general -->
 
 
-          
+
+
+              </div> <!-- columnas sugerencias -->
+            </div>   <!-- content-fluid -->
+           </div> <!-- row cuerpo -->      
       </div> <!--  cuerpo -->
 
 

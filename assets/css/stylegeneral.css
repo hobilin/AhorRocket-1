@@ -12,9 +12,10 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+
 }
 .uno{
-  display: none;
+  display: ;
 }
 div.navbar{
   font-size: 1.4em;
@@ -39,26 +40,71 @@ li .us{
   letter-spacing: 1px;
 
 }
+/*MENSAJE CARRUSEL*/
+.mensaje-carrusel{
+  /*outline: 1px solid red; */
+  width: 40em;
+  height: 20em;
+  padding: 2em; 
+  margin-top: 5.3em;
+  margin-left: 4em;
+  text-align: left;
+  background-color: ;
+  color: #fff;
+  text-shadow: 2px 2px #6d6d6d;
+  position:absolute; 
+  z-index: 10;
+}
+.mensaje-carrusel h2{
+  font-size: 2.4em;
+  margin-bottom: 1em;
+}
+.mensaje-carrusel p{
+  font-size: 1.25em;
+  margin-top: 0em;
+  letter-spacing: 0.1em;
+}
 
+
+/*CARRUSEL*/
+#carrusel{
+  margin-top: -2em;
+  height: 41.6em;
+  width: 100%;
+  z-index: -10;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+img.carruselfondo{
+  width: 100%;
+  height: 40em;
+  filter: blur(3px);  
+  margin-top: 0.5em;
+}
 /*section dos (imagen estática)*/
 
 .dos{
-  background-image: url(../img/istock.jpg);
-  background-repeat: no-repeat;
   width: 100%;
-  height: 46.5em;
   margin-top: 10em;
   text-align: center;
-
+  background-color: #fff;
+  color: #000;
+  position:absolute; 
+  z-index: 10;
 }
+
 .login{
-  outline: 1px solid orange;
+  /*outline: 1px solid red;*/
   height: 25em;
   width: 30em;
   float: right;
-  margin-top: -2em;
+  margin-top: -45em;
   margin-right: 6em;
   padding: 2em;
+  z-index: 1000;
+  background-color: #f8f8f8;
+  
 }
 .mail{
   margin-top: 2em;
@@ -71,6 +117,7 @@ li .us{
   letter-spacing: 1px;
   padding-right: 1.5em;
   padding-left: 1.5em;
+
 }
 .recuperar{
   margin-top: 1em;
@@ -81,6 +128,20 @@ li .us{
   cursor: pointer;
   text-decoration: none;
 }
+
+h2.titulologin{
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
 /*
 #loginrrss p{
   font-size: 0.9em;
@@ -90,6 +151,10 @@ li .us{
 } */
 
 /*MENÚ CONTENIDO*/
+.tres{
+   background-color: #f8f8f8;
+   display: none;
+}
 .navbar2{
   height: 0.4em;
 }
@@ -143,7 +208,8 @@ li #user{
   border-color: #000;  
 }
 .infouser{
-  outline: 1px solid #c0c0c0;
+  /*outline: 1px solid #c0c0c0;*/
+  background-color: #fff;
   height: 20em;
   width: 20em;
   margin-top: 8.5em;
@@ -170,6 +236,7 @@ li #user{
 /*ALIANZAS*/
 .menualianza{
   margin-left: 2.15em;
+
   /*outline: 1px solid green; */
   height: 25em;
   width: 20em;
@@ -184,6 +251,7 @@ li #user{
   width: 4em;
   height: 4em;
   text-decoration: center;
+
 }
 #alianza-marca{
   border-radius: 5em;
@@ -201,6 +269,9 @@ img.marca1, img.marca4, img.marca7{
 .imagenesalianza img, .imagenesmarcas img{
   margin-top: 1.2em;
 }
+.imagenesalianza{
+  background-color: #fff;
+}
 .imagenesmarca{  /*NO VISIBLE AGREGAR FUNCIÓN PARA CAMBIAR ESTATUS POR MENU*/
   display: none;
 }
@@ -212,9 +283,10 @@ img.marca1, img.marca4, img.marca7{
 /*Publicación usuario*/
 
 .post{
-  outline: 1px solid orange;
+  /*outline: 1px solid orange; */
   height: 11em;
   margin-top: 1.4em;
+  background-color: #fff;
 }
 textarea.txt{
   margin-left: 2em;
@@ -248,15 +320,16 @@ span i.ubicacion{
 div.historial{
   height: 100em;
   width: 100%;
-  outline: 1px solid orange;
+  /*outline: 1px solid orange; */
   margin-left: 0em;
   margin-top: 0.89em;
   padding: 1em;
 }
 .post1{
-  outline: 1px solid blue;
+  /*outline: 1px solid blue; */
   padding: 0.4em;
   margin-bottom: 1em;
+  background-color: #fff;
 }
 .userpost{
   border-radius: 5em;
@@ -268,11 +341,14 @@ hr {
 }
 h4.username{
   font-size: 1.4em;
+  font-weight: bolder;
+  margin-left: 0.3em;
 }
 p.usertime{
   color: #a5a0a0;
   font-size: 0.8em;
   margin-top: -0.7em;
+  margin-left: 0.5em;
 }
 .puntitos .fa-ellipsis-v{
   font-size: 2em;
@@ -309,7 +385,57 @@ div.icons{
   /*color: #1daa01; */
 }
 .sugerencias{
-  outline: 1px solid orange;
+  /*outline: 1px solid orange; */
   width: 100%;
   height: 20em;
+  margin-top: 1.4em;
+  padding-left: 0.2em;
+  padding-right: 0.2em; 
+  padding-top: 0.08em;
+  background-color: #fff;
+
+}
+.sugerencias h3{
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: 1em;
+
+}
+.user-ejemp img{
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 5em;
+  margin-left: 1em;
+}
+.user-sugerencia{
+  font-weight: bolder;
+  text-decoration: none;
+  color: #000;
+}
+.user-aporte{
+  font-size: 0.8em;
+}
+div.tendencias{
+  /*outline: 1px solid orange; */
+  width: 100%;
+  height: 25em;
+  margin-top: 1.4em;
+  padding-left: 0.2em;
+  padding-right: 0.2em; 
+  padding-top: 0.08em;
+  background-color: #fff;
+  margin-left: 0.2em;
+}
+.tendenciass h3{
+  margin-bottom: 1em;
+  margin-left: 0em;
+}
+div.hastag{
+  text-decoration: none;
+  margin-left: 1em;
+}
+div.hastag li{
+  list-style: none;
+  margin-top: 0.3em;
+
 }
